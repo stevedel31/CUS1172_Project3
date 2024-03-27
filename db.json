@@ -1,0 +1,112 @@
+{
+    "quiz": [
+        {
+            "title": "Java Quiz",
+            "questions": [
+                {
+                    "id":"java_question1",
+                    "type": "multiple_choice",
+                    "question": "What type of programming language is Java?",
+                    "options": ["Logic Language", "Scripting Language","Functional Language","Object-Oriented Language"],
+                    "correct_answer": "Object-Oriented Language",
+                    "explanation": "Java is a high-level, class-based, object-oriented programming language."
+                    
+
+                },
+                {
+                    "id":"java_question2",
+                    "type":"text_response",
+                    "question": "Which identifier keyword allows one to use methods in other classes?",
+                    "correct_answer": "public",
+                    "explanation": "In java, the keyword that allows one to use methods in other classes is public."
+                },
+                {
+                    "id":"java_question3",
+                    "type":"image_select",
+                    "question":"Which one of these declares the variable x correctly in Java?",
+                    "options": [
+                        {
+                            "image_id":"image_1",
+                            "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172java1.png"
+                        },
+                        {
+                            "image_id":"image_2",
+                            "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172java2.png"
+                        }
+                    ],
+                    "correct_answer":"image_1",
+                    "explanation":"const is not used in Java."
+                },
+                {
+                    "id":"java_question4",
+                    "type": "multiple_choice",
+                    "question": "Which of these is NOT a primitive type in Java?",
+                    "options": ["char","String","int","double"],
+                    "correct_answer": "String",
+                    "explanation": "In java, String is classified as an object."
+                },
+                {
+                    "id":"java_question5",
+                    "type":"text_response",
+                    "question": "A method that does not return any value is declared with the return type ____",
+                    "correct_answer": "void",
+                    "explanation": "When a method has a return type of void, it does not return any value."
+                }
+            ]
+
+        },
+        {
+            "title": "Web Development Quiz",
+            "questions": [
+                {
+                    "id":"web_question1",
+                    "type": "multiple_choice",
+                    "question": "Which of the following is NOT a valid html tag?",
+                    "options": ["<header>", "<div>","<p>","<site>"],
+                    "correct_answer": "<site>",
+                    "explanation": "<site> is not an HTML tag."
+                },
+                {
+                    "id":"web_question2",
+                    "type":"text_response",
+                    "question": "If one wanted to include a external javascript file into their html code what tag would they use?",
+                    "correct_answer": "<script>",
+                    "explanation": "If you want to link an external javascript file in your html file, you use the <script> tag."
+                },
+                {
+                    "id":"web_question3",
+                    "type":"image_select",
+                    "question":"Which of these operators compare BOTH the value and the type of variable?",
+                    "options": [
+                        {
+                            "image_id":"image_1",
+                            "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172web1.png"
+                        },
+                        {
+                            "image_id":"image_2",
+                            "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172web2.png"
+                        }
+                    ],
+                    "correct_answer":"image_1",
+                    "explanation":"The triple-equal '===' operator compare both the value and the type of the variable."
+                },
+                {
+                    "id":"web_question4",
+                    "type": "multiple_choice",
+                    "question": "What does HTML stand for?",
+                    "options": ["Hyperlinks and Text Markup Language","Hyper Text Markup Language","Hyper Text Makeup Language","Hyper Tool Markup Language"],
+                    "correct_answer": "Hyper Text Markup Language",
+                    "explanation": "HTML stands for Hyper Text Markup Language."
+                },
+                {
+                    "id":"web_question5",
+                    "type":"text_response",
+                    "question": "Which tag is used to create a line break?",
+                    "correct_answer": "<br>",
+                    "explanation": "The <br> tag is used to create a line break."
+                }
+            ]
+        }
+
+    ]
+}
