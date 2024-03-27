@@ -1,5 +1,5 @@
 {
-    "quizz": [{
+    "quiz": [{
                     "id":"java_question1",
                     "type": "multiple_choice",
                     "question": "What type of programming language is Java?",
