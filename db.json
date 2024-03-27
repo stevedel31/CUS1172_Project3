@@ -10,6 +10,7 @@
     {
                     "id":"java_question2",
                     "type":"text_response",
+                    "studentAnswer": "answer",
                     "question": "Which identifier keyword allows one to use methods in other classes?",
                     "correct_answer": "public",
                     "explanation": "In java, the keyword that allows one to use methods in other classes is public."
@@ -44,6 +45,7 @@
         "id":"java_question5",
                     "type":"text_response",
                     "question": "A method that does not return any value is declared with the return type ____",
+                    "studentAnswer": "answer",
                     "correct_answer": "void",
                     "explanation": "When a method has a return type of void, it does not return any value."
     },
@@ -59,6 +61,7 @@
         "id":"web_question2",
                     "type":"text_response",
                     "question": "If one wanted to include a external javascript file into their html code what tag would they use?",
+                    "studentAnswer": "answer",
                     "correct_answer": "<script>",
                     "explanation": "If you want to link an external javascript file in your html file, you use the <script> tag."
     },
@@ -91,6 +94,7 @@
         "id":"web_question5",
                     "type":"text_response",
                     "question": "Which tag is used to create a line break?",
+                    "studentAnswer": "answer",
                     "correct_answer": "<br>",
                     "explanation": "The <br> tag is used to create a line break."
     }
