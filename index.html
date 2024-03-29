@@ -22,10 +22,75 @@
         <h2> Welcome! Type your name and select the quiz you want to take. </h2>
         <input type="text" placeholder="Your Name" id="student_name">
         <div>
-            <button class="btn block" id="java_quiz">Take the Java quiz</button>
-            <button class="btn block" id="webdev_quiz">Take the Java quiz</button>
+            <button class="btn btn-primary block" id="java_quiz">Take the Java quiz</button>
+            <button class="btn btn-primary block" id="webdev_quiz">Take the Web Development Quiz</button>
         </div>
 
 
+    </script>
+
+    <script id="multiple_choice" type="text/x-handlebars-template">
+        <div>
+            <h2>Multiple Choice:</h2>
+            <h3>{{this.question}}</h3>
+            <br> 
+            {{#each this.options}}
+                <input class="form-check-input" type="radio" name="radioOptions" id="option{{@index}}">
+                <label class="form-check-label" for="option{{@index}}">{{this}}</label> <br>
+            {{/each}}
+        </div>
+    
+        <div>
+            <button type="submit" id="submit_button" data-action="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </script>
+
+    <script id="text_response" type="text/x-handlebars-template">
+        <div>
+            <h2>Write your answer in the textbox. (Lowercase only)</h2>
+            <h3>{{this.question}}</h3> <br>
+            <input type="text" id="{{this.studentAnswer}}">
+        </div>
+    
+        <div>
+            <button type="submit" id="submit_button" data-action="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </script>
+
+    <script id="image_select" type="text/x-handlebars-template">
+        <h2>Select the image with the correct answer.</h2>
+        <div class="row">
+            <div class="col-sm-1">
+                <p>Image 1:</p>
+            </div>
+            <div class="col-sm-5">
+                
+                    <input type="radio" name="selected_image" value="{{this.options.[0].image_id}}">
+                    <img src="{{this.options.[0].source}}" alt="Image 1">
+                
+            </div>
+            <div class="col-sm-1">
+                <p>Image 2:</p>
+            </div>
+            <div class="col-sm-5">
+                
+                    <input type="radio" name="selected_image" value="{{this.options.[1].image_id}}">
+                    <img src="{{this.options.[1].source}}" alt="Image 2">
+                
+            </div>
+        </div>
+        <div>
+            <button type="submit" id="submit_button" data-action="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </script>
+    
+
+    <script id="incorrect_view" type="text/x-handlebars-template">
+        <h2> The answer you submitted is incorrect.</h2>
+        <h3> The right answer is: </h4>
+        <h3>{{explanation}}</h3>
+
+        <button id="okay" class="btn btn-primary">I understand.</button>
+        
     </script>
 </html>
