@@ -22,11 +22,11 @@
                     "options": [
                         {
                             "image_id":"image_1",
-                            "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172java1.png"
+                            "source":"https://github.com/stevedel31/CUS1172_Project3/blob/main/cus1172java1.png"
                         },
                         {
                             "image_id":"image_2",
-                            "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172java2.png"
+                            "source":"https://github.com/stevedel31/CUS1172_Project3/blob/main/cus1172java2.png"
                         }
                     ],
                     "correct_answer":"image_1",
@@ -72,11 +72,11 @@
         "options": [
             {
                 "image_id":"image_1",
-                "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172web1.png"
+                "source":"https://github.com/stevedel31/CUS1172_Project3/blob/main/cus1172web1.png"
             },
             {
                 "image_id":"image_2",
-                "source":"https://github.com/stevedel31/CUS1172_Delgado/blob/main/project3/cus1172web2.png"
+                "source":"https://github.com/stevedel31/CUS1172_Project3/blob/main/cus1172web2.png"
             }
         ],
         "correct_answer":"image_1",
